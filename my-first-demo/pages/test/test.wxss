@@ -1,0 +1,5 @@
+@import "left.wxss";
+.txt-css {
+  margin-top: 120px;
+
+}

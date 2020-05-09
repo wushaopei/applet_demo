@@ -1,0 +1,4 @@
+<!-- index.wxml -->
+<view class="container">
+  <view id="tapTest" data-customData="我们自定义的数据" data-customName="green arrow" data-sex="男" bindtap="clickMe">Click Me!</view>
+</view>

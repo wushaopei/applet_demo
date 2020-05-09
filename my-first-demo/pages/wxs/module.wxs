@@ -1,0 +1,12 @@
+var name="慕课网";
+var age=18;
+
+var method = function(obj){
+  return obj;
+}
+
+module.exports = {
+  name: name,
+  age: age,
+  method: method
+}

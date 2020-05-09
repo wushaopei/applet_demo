@@ -1,0 +1,15 @@
+<!--pages/judgeIfElse/judgeIfElse.wxml-->
+<view class="container">
+    <view wx:if="{{ age < 18 }}">未成年</view>
+    <view wx:elif="{{ age >= 18 && age <= 30}}"> 已成年 </view>
+    <view wx:else> 你已经老了~~ </view>
+    
+    <block wx:if="{{false}}">
+      <view> 这是一个块级元素 </view>
+      <view> 本节是if判断学习 </view>
+    </block>
+    <view hidden='{{true}}'>
+      <view> 这是hidden元素 </view>
+      <view> hidden判断 </view>
+    </view>
+</view>
